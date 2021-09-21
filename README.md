@@ -2,9 +2,10 @@
 
 Sample Application to communicate with microservices
 
-API : https://www.weatherapi.com/docs/
+Weather API (3rd party): https://www.weatherapi.com/docs/
 
-Note: Change log level to 'DEBUG' to see the details logs
+Note: Change log level to 'DEBUG' to see the details logs Note: Note generate your 'API KEY'
+from  https://www.weatherapi.com and use it in your application. I will deactivate my key in few days.
 
 Requirement:
 
