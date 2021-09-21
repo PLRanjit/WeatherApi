@@ -35,6 +35,5 @@ Application URL :
 - {city_name} - can be replaced with city name
 
 CURL:
-
-Forecast cmd : `curl http://localhost:8080/micApi/weather/forecast?city=Mumbai`
-Current cmd : `curl http://localhost:8080/micApi/weather?city=Mumbai`
+- Forecast cmd : `curl http://localhost:8080/micApi/weather/forecast?city=Mumbai`
+- Current cmd : `curl http://localhost:8080/micApi/weather?city=Mumbai`
