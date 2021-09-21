@@ -30,7 +30,7 @@ public class WeatherController {
 
     @GetMapping("weather/forecast")
     public ForecastResponsePojo getForecast(@RequestParam String city) {
-        log.debug("WeatherController ::: getForecast :: City : {}", city);
+        log.info("WeatherController ::: getForecast :: City : {}", city);
         if (city == null || city.trim().isEmpty()) {
             throw new InvalidCityException("City Name is null or empty", ErrorCode.EMPTY_OR_NULL_CITY);
         }

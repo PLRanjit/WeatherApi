@@ -6,6 +6,15 @@ API : https://www.weatherapi.com/docs/
 
 Note: Change log level to 'DEBUG' to see the details logs
 
+Requirement:
+
+- Make sure 'Lombok' plugin is enabled in the project ![img_2.png](img_2.png)
+- Make sure gradle build is supported on your machine
+- To build jar from Intellij you can follow this ![img_3.png](img_3.png)
+- To build jar use command `gradle clean build` (gradle is mandatory)
+- If unable to build the jar than just download the [weather-forecast.jar](release/weather-forecast-0.0.1-SNAPSHOT.jar)
+  and run `java -jar weather-forecast-0.0.1-SNAPSHOT.jar` command
+
 Inputs :
 
 - City Name
