@@ -1,4 +1,4 @@
-# WeatherApi_Consumer
+# WeatherApi
 
 Sample Application to communicate with microservices
 
