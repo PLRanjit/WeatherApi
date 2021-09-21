@@ -25,7 +25,6 @@ import java.util.stream.Collectors;
  * @version 1.0
  * @since 21-09-2021
  */
-@Component
 @Slf4j
 public class RestTemplateResponseErrorHandler implements ResponseErrorHandler {
 

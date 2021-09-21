@@ -38,8 +38,11 @@ public class WeatherController {
     }
 
     @GetMapping("weather")
-    private Map<String, Object> getTodaysWeather(@RequestParam String city) {
+    public Map<String, Object> getTodaysWeather(@RequestParam String city) {
         log.info("WeatherController ::: getTodaysWeather :: City : {}", city);
+        if (city == null || city.trim().isEmpty()) {
+            throw new InvalidCityException("City Name is null or empty", ErrorCode.EMPTY_OR_NULL_CITY);
+        }
         return weatherService.getTodaysWeather(city);
     }
 }

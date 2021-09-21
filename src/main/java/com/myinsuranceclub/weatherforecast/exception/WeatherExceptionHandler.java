@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
  */
 @RestControllerAdvice
 @Slf4j
-public class WeatherException extends ResponseEntityExceptionHandler {
+public class WeatherExceptionHandler extends ResponseEntityExceptionHandler {
 
     @ExceptionHandler(value = {InvalidCityException.class})
     public ResponseEntity<Object> handleInvalidInputException(InvalidCityException ex) {
